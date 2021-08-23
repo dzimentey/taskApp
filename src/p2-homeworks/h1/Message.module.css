@@ -1,0 +1,56 @@
+.container {
+    width: 400px;
+    margin: 20px;
+    padding: 5px 0;
+    background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 78%);
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: bottom;
+    margin-left: 15px;
+}
+
+.message {
+    display: inline-block;
+    background-color: rgba(40, 44, 52, 0.99);
+    width: 280px;
+    color: #9598ad;
+    border-radius: 5px 5px 5px 0;
+    /*border-bottom-left-radius: 0;*/
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.message_text {
+    color: #bdc9b2;
+    word-wrap: break-word;
+}
+
+.time {
+    text-align: end;
+    color: #748950;
+    /*font-weight: bold;*/
+    font-size: 20px;
+    line-height: 0.5;
+}
+
+.triangle {
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border-style: solid;*/
+    /*border-width: 8px 4px 7.5px 8px; !* размер и форма *!*/
+    /*border-color: transparent #282c34 #282c34 transparent; !*   цвет *!*/
+    /*!*filter: drop-shadow(0 0 5px #000);  !* тень *!*!*/
+
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(40, 44, 52, 0.99) 0);
+
+    display: inline-block;
+    vertical-align: bottom; /* треугольник опускаем вниз */
+    margin-left: 5px;
+}

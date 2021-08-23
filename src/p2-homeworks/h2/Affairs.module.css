@@ -1,0 +1,66 @@
+
+.aim {
+    display: inline-block;
+    color: #121111;
+    width: 90px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.priority {
+    display: inline-block;
+    width: 90px;
+    padding: 5px;
+}
+
+.aimbutton {
+    margin: 5px 0px 0px 6px;
+    padding: 0px 10px ;
+    color: black;
+    background-color: #bdc9b2;
+    border-radius: 2px;
+    border: 2px solid #a0a4a0;
+}
+
+.aimbutton:focus {
+    border: 2px solid #5e5c5c;
+    background-color: #768d58;
+    color: #fefdfd;
+}
+
+.aimbutton:active {
+    color: #084805;
+    background-color: #748950;
+}
+
+.deleteButton {
+    background-color: #bdc9b2;
+    border-radius: 2px;
+    border: 2px solid #a0a4a0;
+
+}
+
+.deleteButton:active {
+    color: #eceeec;
+    background-color: #748950;
+}
+
+.deleteButton:hover, .aimbutton:hover {
+    border: 2px solid #5d7050;
+}
+
+.deleteButton:hover {
+    color: darkred;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: green;
+}
