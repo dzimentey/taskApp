@@ -1,4 +1,4 @@
-https://dzimentey.github.io/taskApp/public/index.html
+(https://dzimentey.github.io/taskApp/public/index.html)
 
 # Getting Started with Create React App
 
