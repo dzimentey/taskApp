@@ -5,8 +5,14 @@ type ActionType =   {type: 'check', payload: number} | {type: 'sort', payload: '
 export const homeWorkReducer = (state: Array<UserType>, action: ActionType): Array<UserType> => { // need to fix any?
     switch (action.type) {
         case 'sort': {
-            // need to fix
-            return state
+            // need to fix?
+            const newState = [...state].sort((a, b) => {
+              if (a.name > b.name) return 1
+                else if (a.name < b.name) return -1
+                return 0
+
+            })
+            return action.payload === 'up' ? newState : newState.reverse()
         }
         case 'check': {
             // need to fix?
