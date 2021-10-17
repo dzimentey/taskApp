@@ -9,7 +9,7 @@ export const homeWorkReducer = (state: Array<UserType>, action: ActionType): Arr
             const newState = [...state].sort((a, b) => {
               if (a.name > b.name) return 1
                 else if (a.name < b.name) return -1
-                return 0
+                return 0 // if names are equal
 
             })
             return action.payload === 'up' ? newState : newState.reverse()
